@@ -1,5 +1,5 @@
-from ctypes import c_long, c_int
-from multiprocessing import Array, Queue, Value
+from ctypes import c_int
+from multiprocessing import Queue, Value
 
 
 POST_INFO_API_PATH = 'posts/'
